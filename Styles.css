@@ -1,0 +1,32 @@
+#calculator * {
+	font-size: 16px;
+}
+#calculator table {
+	border: solid 3px silver; 
+	border-spacing: 3px; 
+	background-color: #EEE; 
+}
+#calculator table td {
+	border-spacing: 3px;
+}
+input.display {
+	width: 270px; 
+	text-align: right;
+}
+td.buttons {
+	border-top: solid 1px silver;
+}
+input[type= button] {
+	width: 40px; height: 30px;
+}
+input[type= button]:hover:not(:active) {
+	background: linear-gradient(rgb(245, 245, 220), rgb(245, 245, 220)) rgb(245, 245, 220);
+}
+input[type= button]:active {
+	top: 1px;
+	background: linear-gradient(rgb(250, 235, 215), rgb(250, 235, 215)) rgb(250, 235, 215);
+	box-shadow:
+	0 0 1px rgba(0,0,0,.5) inset,
+	0 2px 3px rgba(0,0,0,.5) inset,
+	0 1px 1px rgba(255,255,255,.1);
+}
